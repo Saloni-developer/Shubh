@@ -15,47 +15,211 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Browse our latest products",
+            "heading": "Bring home advanced water purification",
             "heading_size": "h0"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "Discover RO, UV, UF and copper-enhanced water purifiers designed for safer, cleaner and better-tasting water every day.",
+            "text_style": "subtitle"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Shop purifiers",
             "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_1": false,
+            "button_label_2": "View offers",
+            "button_link_2": "shopify://collections/all",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
+        "text",
         "button"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 55,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
         "image_behavior": "none",
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "water_purifier_home": {
+      "type": "water-purifier-home",
+      "blocks": {
+        "category_1": {
+          "type": "category",
+          "settings": {
+            "label": "RO Water Purifier",
+            "link": "shopify://collections/all"
+          }
+        },
+        "category_2": {
+          "type": "category",
+          "settings": {
+            "label": "UV Water Purifier",
+            "link": "shopify://collections/all"
+          }
+        },
+        "category_3": {
+          "type": "category",
+          "settings": {
+            "label": "Copper Purifier",
+            "link": "shopify://collections/all"
+          }
+        },
+        "category_4": {
+          "type": "category",
+          "settings": {
+            "label": "Alkaline Boost",
+            "link": "shopify://collections/all"
+          }
+        },
+        "category_5": {
+          "type": "category",
+          "settings": {
+            "label": "Smart Purifier",
+            "link": "shopify://collections/all"
+          }
+        },
+        "category_6": {
+          "type": "category",
+          "settings": {
+            "label": "Under Sink Purifier",
+            "link": "shopify://collections/all"
+          }
+        },
+        "highlight_1": {
+          "type": "highlight",
+          "settings": {
+            "tag": "Top Pick",
+            "title": "RO + UV purification for modern homes",
+            "text": "Use premium product cards and offer-led messaging to guide buyers toward your best-selling home water purifier range.",
+            "link_label": "Explore range",
+            "link": "shopify://collections/all"
+          }
+        },
+        "highlight_2": {
+          "type": "highlight",
+          "settings": {
+            "tag": "Smart Feature",
+            "title": "Copper, alkaline and smart purifier options",
+            "text": "Showcase differentiated benefits like mineral enrichment, digital indicators and low-maintenance filter systems.",
+            "link_label": "See features",
+            "link": "shopify://collections/all"
+          }
+        },
+        "highlight_3": {
+          "type": "highlight",
+          "settings": {
+            "tag": "Special Offer",
+            "title": "Exchange, instant savings and service support",
+            "text": "Bring promotions and trust together so the customer feels confident about both the product and the after-sales experience.",
+            "link_label": "Browse deals",
+            "link": "shopify://collections/all"
+          }
+        },
+        "trust_1": {
+          "type": "trust",
+          "settings": {
+            "icon": "shield",
+            "title": "Advanced purification",
+            "text": "Position your store around clean, safe drinking water with strong RO, UV and UF messaging."
+          }
+        },
+        "trust_2": {
+          "type": "trust",
+          "settings": {
+            "icon": "refresh",
+            "title": "Longer filter life",
+            "text": "Promote low-maintenance filters and easy replacement cycles for better ownership experience."
+          }
+        },
+        "trust_3": {
+          "type": "trust",
+          "settings": {
+            "icon": "wallet",
+            "title": "Value-led offers",
+            "text": "Highlight EMI, exchange, coupon and seasonal pricing to improve conversion on the homepage."
+          }
+        },
+        "trust_4": {
+          "type": "trust",
+          "settings": {
+            "icon": "drop",
+            "title": "Water type guidance",
+            "text": "Help shoppers choose the right purifier based on water source, TDS and household size."
+          }
+        },
+        "faq_1": {
+          "type": "faq",
+          "settings": {
+            "question": "Which purifier should I choose for my home?",
+            "answer": "If your water has high TDS, RO is usually a better fit. For municipal supply with lower TDS, UV or UF options can work well depending on your water quality needs."
+          }
+        },
+        "faq_2": {
+          "type": "faq",
+          "settings": {
+            "question": "Are copper or alkaline purifiers a good choice?",
+            "answer": "They can be a strong upgrade if you want added mineral or health-focused positioning, especially when paired with the right purification method for your water source."
+          }
+        },
+        "faq_3": {
+          "type": "faq",
+          "settings": {
+            "question": "What should the homepage focus on first?",
+            "answer": "Lead with category discovery, then your best-selling products, then trust signals and FAQs. That structure feels close to the reference layout and also supports conversions."
+          }
+        }
+      },
+      "block_order": [
+        "category_1",
+        "category_2",
+        "category_3",
+        "category_4",
+        "category_5",
+        "category_6",
+        "highlight_1",
+        "highlight_2",
+        "highlight_3",
+        "trust_1",
+        "trust_2",
+        "trust_3",
+        "trust_4",
+        "faq_1",
+        "faq_2",
+        "faq_3"
+      ],
+      "settings": {
+        "eyebrow": "Water Purifier Range",
+        "heading": "A category-first homepage inspired by leading purifier brands",
+        "heading_size": "h1",
+        "subtext": "This layout mirrors the feel of a premium water purifier landing page with quick category access, promotional highlights, trust blocks and FAQs, while staying tailored to your own store.",
+        "padding_top": 48,
+        "padding_bottom": 64
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Trending water purifiers",
         "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
+        "description": "Feature your most popular purifier models here, just like the product-led section on the reference page.",
+        "show_description": true,
+        "description_style": "subtitle",
         "collection": "all",
         "products_to_show": 8,
         "columns_desktop": 4,
@@ -64,7 +228,7 @@
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -72,13 +236,14 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
-        "padding_top": 44,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "image_banner",
+    "water_purifier_home",
     "featured_collection"
   ]
 }
